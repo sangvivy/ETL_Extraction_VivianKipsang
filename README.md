@@ -2,9 +2,6 @@
 
 # Project Title: ETL Extract Lab
 
-Name: Vivian Kipsang 
-
-
 ## Project Description:
 This notebook demonstrates an **Incremental ETL (Extract, Transform, Load)** process using a simulated hospital visit dataset.  
 It extracts only the **new or updated records** since the last extraction timestamp, which is tracked using a `last_extraction.txt` file.
