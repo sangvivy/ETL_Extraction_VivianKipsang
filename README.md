@@ -16,7 +16,7 @@ This project follows the lab manual Practicing Extraction in ETL:
 
 
 ##  Tools Used:
-- **Python** (3.x)
+- **Python** (3.12.4)
 - **pandas** – for data manipulation
 - **Jupyter Notebook** – for running and documenting the workflow
 - **VSCode** – for optional file management and GitHub integration
