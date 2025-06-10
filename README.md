@@ -6,6 +6,15 @@
 This notebook demonstrates an **Incremental ETL (Extract, Transform, Load)** process using a simulated hospital visit dataset.  
 It extracts only the **new or updated records** since the last extraction timestamp, which is tracked using a `last_extraction.txt` file.
 
+This project follows the lab manual Practicing Extraction in ETL:
+1. Choose (or generate) a realistic dataset.
+2. Implement:
+    - Full Extraction
+     - Incremental Extraction
+3. Document each step clearly in a Jupyter Notebook.
+4. Upload your work to GitHub for submission.
+
+
 ##  Tools Used:
 - **Python** (3.x)
 - **pandas** – for data manipulation
