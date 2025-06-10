@@ -16,11 +16,11 @@ It extracts only the **new or updated records** since the last extraction timest
 
 ### 1. Run the Notebook:
 - Open the notebook in Jupyter or VSCode.
-- Make sure `hospital_visits_apr_may.csv` and `last_extraction.txt` are in the same folder.
+- Make sure `hospital_visits.csv` and `last_extraction.txt` are in the same folder.
 - Run the notebook cells in order.
 
 ### 2. Data Source:
 - The data is synthetically generated using Python.
-- The CSV file `hospital_visits_apr_may.csv` contains 2 months of simulated hospital check-in and check-out data.
+- The CSV file `hospital_visits.csv` contains 2 months of simulated hospital check-in and check-out data.
 
 ---
