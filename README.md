@@ -32,4 +32,7 @@ This project follows the lab manual Practicing Extraction in ETL:
 - The data is synthetically generated using Python.
 - The CSV file `hospital_visits.csv` contains 2 months of simulated hospital check-in and check-out data.
 
+## Conclusion 
+This project successfully implemented an incremental data extraction process using Python and pandas, simulating a real-world ETL workflow. By tracking timestamps via a simple last_extraction.txt file, the solution efficiently filtered and extracted only new or updated records from a larger dataset. 
+
 ---
