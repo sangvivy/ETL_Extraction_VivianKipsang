@@ -25,12 +25,12 @@ This project follows the lab manual Practicing Extraction in ETL:
 
 ### 1. Run the Notebook:
 - Open the notebook in Jupyter or VSCode.
-- Make sure `hospital_visits.csv` and `last_extraction.txt` are in the same folder.
+- Make sure `hospital_visits_apr_may.csv` and `hospital_visits_apr_may.csv` are in the same folder.
 - Run the notebook cells in order.
 
 ### 2. Data Source:
 - The data is synthetically generated using Python.
-- The CSV file `hospital_visits.csv` contains 2 months of simulated hospital check-in and check-out data.
+- The CSV file `hospital_visits_apr_may.csv` contains 2 months of simulated hospital check-in and check-out data.
 
 ## Conclusion 
 This project successfully implemented an incremental data extraction process using Python and pandas, simulating a real-world ETL workflow. By tracking timestamps via a simple last_extraction.txt file, the solution efficiently filtered and extracted only new or updated records from a larger dataset. 
