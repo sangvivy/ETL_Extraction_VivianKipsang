@@ -12,24 +12,24 @@ This project follows the lab manual Practicing Extraction in ETL:
     - Full Extraction
      - Incremental Extraction
 
-### Transformation Process
+    #### Transformation Process
 
-After extraction, both full and incremental datasets undergo several transformations to prepare the data for analysis:
-
-1. **Cleaning:**  
-   - Removed duplicate records.
-   - Handled missing values by filling missing `cost` values with the column's median.
-
-2. **Enrichment:**  
-   - Calculated `visit_duration_minutes` based on visit start time and check-out time.
-
-3. **Structural:**  
-   - Standardized date formats for `visit_date` and `check_out_time` to ensure consistency (`YYYY-MM-DD` and `YYYY-MM-DD HH:MM:SS` formats).
-
-The final transformed datasets are saved as:
-
-- `transformed_full.csv`
-- `transformed_incremental.csv`
+        After extraction, both full and incremental datasets undergo several transformations to prepare the data for analysis:
+        
+        1. **Cleaning:**  
+           - Removed duplicate records.
+           - Handled missing values by filling missing `cost` values with the column's median.
+        
+        2. **Enrichment:**  
+           - Calculated `visit_duration_minutes` based on visit start time and check-out time.
+        
+        3. **Structural:**  
+           - Standardized date formats for `visit_date` and `check_out_time` to ensure consistency (`YYYY-MM-DD` and `YYYY-MM-DD HH:MM:SS` formats).
+        
+        The final transformed datasets are saved as:
+        
+        - `transformed_full.csv`
+        - `transformed_incremental.csv`
 
 3. Document each step clearly in a Jupyter Notebook.
 4. Upload your work to GitHub for submission.
