@@ -53,7 +53,20 @@ The final transformed datasets are saved as:
 - The CSV file `hospital_visits_apr_may.csv` contains 2 months of simulated hospital check-in and check-out data.
 
 ## Conclusion 
-This project successfully implemented an incremental data extraction process using Python and pandas, simulating a real-world ETL workflow. By tracking timestamps via a simple last_extraction.txt file, the solution efficiently filtered and extracted only new or updated records from a larger dataset. 
+This project successfully implemented an incremental data extraction process using Python and pandas, simulating a real-world ETL workflow.
+By tracking timestamps via a simple last_extraction.txt file, the solution efficiently filtered and extracted only new or updated records from a larger dataset.
+
+Additionally, multiple data transformation steps were applied to prepare the data for further analysis:
+
+- Cleaning to remove duplicates and handle missing values.
+
+- Enrichment by calculating visit duration for each hospital visit.
+
+- Structural formatting to standardize date and time fields.
+
+- The final result is a clean, enriched, and analysis-ready dataset stored as both full and incremental transformed CSV files.
+
+
 
 ---
 
