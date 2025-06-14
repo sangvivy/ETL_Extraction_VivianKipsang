@@ -1,6 +1,6 @@
 # ETL_Extraction_VivianKipsang
 
-# Project Title: ETL Extract Lab
+# Project Title: ETL Extract & Transformation Lab
 
 ## Project Description:
 This notebook demonstrates an **Incremental ETL (Extract, Transform, Load)** process using a simulated hospital visit dataset.  
